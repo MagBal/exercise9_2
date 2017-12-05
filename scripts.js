@@ -6,7 +6,7 @@ var allNames = femaleNames.concat(maleNames);
 var newName = 'Ola';
 
 if (allNames.indexOf(newName) === -1) {
-	allNames[9] = 'Ola';
+	var allNewNames = allNames.push(newName);
 }
 
 console.log(allNames);
